@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<!-- 이 부분은 주석문입니다. 웹 브라우저는 주석을 화면에 출력하지 않습니다. -->
+<html>
+  <head>
+    <!-- 문서제목, 자바스크립트 코드, CSS 스타일 정의, 메타데이터정의 -->
+    <meta charset="utf-8" />
+    <title>HM07 : CSS3 advanced</title>
+    <style>
+      div {
+        display: inline-block;
+        position: absolute; /* 절대 배치 */
+        border: 1px solid lightgray;
+      }
+      div > p {
+        display: inline-block; /* div의 자식 p */
+        position: absolute; /* 절대 배치 */
+        height: 20px;
+        width: 15px;
+        background: lightgray;
+      }
+      div {
+        background-image: url("media/asd.png");
+        background-size: 500px 500px;
+        background-repeat: no-repeat;
+        background-position: left center;
+      }
+      #HM07 {
+        position: fixed;
+        bottom: 120px;
+        left: 200px;
+        width: 120px;
+        padding: 5px;
+        background: yellow;
+        color: black;
+      }
+    </style>
+    <script></script>
+  </head>
+  <!DOCTYPE html>
+  <html>
+    <head>
+      <title>전환</title>
+      <style>
+        span {
+          transition: font-size 5s;
+        }
+        span:hover {
+          font-size: 1200%;
+        }
+      </style>
+    </head>
+    <h3>오디오 삽입</h3>
+    <hr />
+    <audio src="media/EmbraceableYou.mp3" controls autoplay loop></audio>
+    <body>
+      <h3>font-size에 대한 전환</h3>
+      <hr />
+      <p><span>당첨!</span>글자에 마우스를 올려보세요.</p>
+    </body>
+  </html>
+
+  <body>
+    <!-- 문서의 본문 텍스트, 이미지, 테이블, 자바스크립트 코드, 동영상 등 -->
+    <h3>Merry christmas</h3>
+    <hr />
+    <p id="round"></p>
+    <div>
+      <p style="left: 200px; top: 120px;">
+        M
+      </p>
+      <p style="left: 220px; top: 140px;">
+        E
+      </p>
+      <p style="left: 240px; top: 120px;">
+        R
+      </p>
+      <p style="left: 260px; top: 160px;">
+        R
+      </p>
+      <p style="left: 280px; top: 180px;">
+        Y
+      </p>
+      <p style="left: 300px; top: 200px;">
+        X
+      </p>
+      <p style="left: 200px; top: 260px;">
+        -
+      </p>
+      <p style="left: 220px; top: 280px;">
+        M
+      </p>
+      <p style="left: 240px; top: 260px;">
+        A
+      </p>
+      <p style="left: 260px; top: 280px;">
+        S
+      </p>
+      <img
+        src="media/christmastree.png"
+        width="500px"
+        height="500px"
+        alt="크리스마스 트리"
+      />
+      <p style="left: 150px; top: 120px;">
+        <img src="media/트리장식1.jpg" width="50px" height="50px" />
+      </p>
+      <p style="left: 200px; top: 200px;">
+        <img src="media/트리장식2.jpg" width="50px" height="50px" />
+      </p>
+      <p style="left: 300px; top: 230px;">
+        <img src="media/트리장식3.jpg" width="50px" height="50px" />
+      </p>
+      <p style="left: 230px; top: 0px;">
+        <img src="media/트리장식4.jpg" width="50px" height="50px" />
+      </p>
+      <p style="left: 200px; top: 300px;">
+        <img src="media/트리장식5.jpg" width="50px" height="50px" />
+      </p>
+    </div>
+    <div id="HM07">sjh1583, 심준혁</div>
+  </body>
+</html>
