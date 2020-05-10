@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<!-- 이 부분은 주석문입니다. 웹 브라우저는 주석을 화면에 출력하지 않습니다. -->
+<html>
+  <head>
+    <!-- 문서제목, 자바스크립트 코드, CSS 스타일 정의, 메타데이터정의 -->
+    <meta charset="utf-8" />
+    <title>HM07: 중간고사 과제</title>
+    <style>
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+      }
+      .header {
+        width: 100%;
+        height: 10%;
+        background: black;
+      }
+      .nav {
+        width: 30%;
+        height: 80%;
+        float: left;
+        background: gray;
+      }
+      .section {
+        width: 70%;
+        height: 80%;
+        float: left;
+        background: white;
+      }
+      .aside {
+        width: 15%;
+        height: 70%;
+        float: left;
+        background: orange;
+      }
+    </style>
+    <script></script>
+  </head>
+
+  <body>
+    <!-- 문서의 본문 텍스트, 이미지, 테이블, 자바스크립트 코드, 동영상 등 -->
+    <header class="header">
+      <h1><a href="https://github.com/sjh1583">Github HM07</a></h1>
+    </header>
+
+    <nav class="nav">
+      <ul>
+        <li>
+          <h2>나에 대하여</h2>
+          <ul>
+            <hr />
+
+            <li>
+              <a href="나의하루.html" target="myframe">나의 하루</a>
+            </li>
+            <li>
+              <a href="Best 1.html" target="myframe">좋아하는 영화 best1</a>
+            </li>
+            <li>
+              <a href="Best 2.html" target="myframe">좋아하는 영화 best2</a>
+            </li>
+            <li>
+              <a href="Best 3.html" target="myframe">좋아하는 영화 best3</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <h2>크리스마스</h2>
+          <ul>
+            <li>
+              <a href="HM07_card.html" target="myframe">HM07 크리스마스트리</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <h2>게임 동호회를 모집합니다</h2>
+          <ul>
+            <li>
+              <a href="동호회 소개.html" target="myframe">동호회 소개</a>
+            </li>
+            <li>
+              <a href="동호회 모집.html" target="myframe">동호회 모집 작성서</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+
+    <section class="section" id="main">
+      <article>
+        <iframe src="나의하루.html" name="myframe" width="770" height="580">
+        </iframe>
+      </article>
+    </section>
+  </body>
+</html>
