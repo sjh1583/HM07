@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Document</title>
+  <style>
+    #clock {
+      font-size: xxx-large;
+    }
+  </style>
+  <script>
+    setInterval(function () {
+      var timer = new Date();
+      var h = timer.getHours();
+      var m = timer.getMinutes();
+      var s = timer.getSeconds();
+      document.getElementById("clock").innerHTML = h + ":" + m + ":" + s;
+    }, 1000);
+  </script>
+</head>
+
+<h1 id="clock"></h1>
